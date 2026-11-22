@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Love Days Lite</string>
+    <string name="widget_wide">Love counter (4x2)</string>
+    <string name="widget_small">Love counter (2x2)</string>
+    <string name="you">Your name</string>
+    <string name="partner">Partner name</string>
+    <string name="edit_info">About you two</string>
+    <string name="days_together">days together</string>
+    <string name="tap_setup">Tap to set up</string>
+    <string name="since">Since %1$s</string>
+    <string name="btn_info">Edit info</string>
+    <string name="btn_photo">Change photo</string>
+    <string name="btn_diary">Diary</string>
+    <string name="upcoming">Coming up</string>
+    <string name="btn_export">Back up</string>
+    <string name="btn_import">Restore</string>
+    <string name="btn_pin">PIN</string>
+    <string name="pin_hint">4–8 digits (empty to disable)</string>
+    <string name="unlock">Unlock</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="wrong_pin">Wrong PIN</string>
+    <string name="saved">Saved</string>
+    <string name="failed">Something went wrong</string>
+    <string name="diary_title">Diary</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="diary_hint">Anything worth remembering today?</string>
+    <string name="m_days">%1$d days</string>
+    <string name="m_years">%1$d years</string>
+    <string name="today">Today</string>
+    <string name="in_days">in %1$d days</string>
+</resources>

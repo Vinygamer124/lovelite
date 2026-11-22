@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="320dp" android:background="@drawable/header_bg">
+            <ImageView android:id="@+id/bg" android:layout_width="match_parent" android:layout_height="match_parent"
+                android:contentDescription="@null" android:scaleType="centerCrop"/>
+            <View android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/scrim"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                android:gravity="center" android:orientation="vertical">
+                <TextView android:id="@+id/names" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF" android:textSize="20sp"/>
+                <TextView android:id="@+id/days" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF" android:textSize="72sp" android:textStyle="bold"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/days_together" android:textColor="#FFFFFF" android:textSize="16sp"/>
+                <TextView android:id="@+id/since" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textColor="#FFE4EC" android:textSize="13sp"/>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="16dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <Button android:id="@+id/btn_info" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/btn_info"/>
+                <Button android:id="@+id/btn_photo" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/btn_photo"/>
+                <Button android:id="@+id/btn_diary" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/btn_diary"/>
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"
+                android:text="@string/upcoming" android:textColor="@color/pink_dark" android:textSize="18sp" android:textStyle="bold"/>
+            <TextView android:id="@+id/upcoming" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp" android:paddingTop="8dp" android:textSize="15sp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:orientation="horizontal">
+                <Button android:id="@+id/btn_export" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/btn_export"/>
+                <Button android:id="@+id/btn_import" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/btn_import"/>
+                <Button android:id="@+id/btn_pin" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/btn_pin"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
