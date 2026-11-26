@@ -42,7 +42,7 @@ object Photo {
     }
 
     fun saveBg(c: Context, uri: Uri): Boolean = try {
-        var bmp = decode(c, uri, BG_MAX) ?: return false
+        var bmp = decode(c, uri, BG_MAX) ?: error("decode")
         val m = max(bmp.width, bmp.height)
         if (m > BG_MAX) {
             val k = BG_MAX / m.toFloat()
@@ -54,7 +54,7 @@ object Photo {
 
     /** Cắt vuông ở giữa rồi thu về 512px. */
     fun saveAvatar(c: Context, i: Int, uri: Uri): Boolean = try {
-        val bmp = decode(c, uri, AV_SIZE) ?: return false
+        val bmp = decode(c, uri, AV_SIZE) ?: error("decode")
         val side = minOf(bmp.width, bmp.height)
         val sq = Bitmap.createBitmap(bmp, (bmp.width - side) / 2, (bmp.height - side) / 2, side, side)
         val out = if (side > AV_SIZE) Bitmap.createScaledBitmap(sq, AV_SIZE, AV_SIZE, true) else sq
