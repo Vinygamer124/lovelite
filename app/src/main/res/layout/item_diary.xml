@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/bg_card" android:elevation="1dp" android:orientation="vertical" android:padding="16dp">
+    <TextView android:id="@+id/d_date" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium" android:textColor="@color/rose" android:textSize="12sp"/>
+    <TextView android:id="@+id/d_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp"
+        android:lineSpacingExtra="3dp" android:textColor="@color/ink" android:textSize="15sp"/>
+</LinearLayout>

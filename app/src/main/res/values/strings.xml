@@ -3,9 +3,27 @@
     <string name="app_name">Ngày Yêu Lite</string>
     <string name="widget_wide">Đếm ngày yêu (4x2)</string>
     <string name="widget_small">Đếm ngày yêu (2x2)</string>
-    <string name="you">Tên bạn</string>
-    <string name="partner">Tên người ấy</string>
+
+    <string name="you_default">Bạn</string>
+    <string name="partner_default">Người ấy</string>
+    <string name="you_lower">bạn</string>
+    <string name="partner_lower">người ấy</string>
+    <string name="hint_name">Nhập tên</string>
+    <string name="form_you">Thông tin của bạn</string>
+    <string name="form_partner">Thông tin người ấy</string>
+    <string name="gender_male">Nam</string>
+    <string name="gender_female">Nữ</string>
+    <string name="gender_other">Khác</string>
+    <string name="birthday">Ngày sinh</string>
+    <string name="pick_birth">Chọn ngày sinh</string>
+    <string name="start_date">Ngày bắt đầu yêu</string>
+    <string name="pick_date">Chọn ngày</string>
+    <string name="save_changes">Lưu thay đổi</string>
+    <string name="tap_photo">Chạm vào ảnh để đổi</string>
+    <string name="cd_avatar">Ảnh đại diện</string>
+    <string name="back">Quay lại</string>
     <string name="edit_info">Thông tin của hai bạn</string>
+
     <string name="days_together">ngày bên nhau</string>
     <string name="tap_setup">Chạm để cài đặt</string>
     <string name="since">Từ %1$s</string>
@@ -13,21 +31,91 @@
     <string name="btn_photo">Đổi ảnh nền</string>
     <string name="btn_diary">Nhật ký</string>
     <string name="upcoming">Sắp tới</string>
-    <string name="btn_export">Sao lưu</string>
-    <string name="btn_import">Khôi phục</string>
+    <string name="upcoming_empty">Hãy chọn ngày bắt đầu yêu để xem các mốc sắp tới.</string>
+    <string name="section_options">Tuỳ chọn</string>
+    <string name="btn_export">Sao lưu dữ liệu</string>
+    <string name="btn_import">Khôi phục dữ liệu</string>
     <string name="btn_pin">Mã PIN</string>
+    <string name="pin_on">Đang bật</string>
+    <string name="pin_off">Tắt</string>
     <string name="pin_hint">4–8 số (để trống để tắt)</string>
     <string name="unlock">Mở khoá</string>
     <string name="enter_pin">Nhập mã PIN</string>
     <string name="wrong_pin">Sai mã PIN</string>
     <string name="saved">Đã lưu</string>
     <string name="failed">Không thực hiện được</string>
+    <string name="lang_title">Ngôn ngữ</string>
+    <string name="lang_vi">Tiếng Việt</string>
+    <string name="lang_en">English</string>
+    <string name="widget_photo">Dùng ảnh nền cho widget</string>
+
     <string name="diary_title">Nhật ký</string>
+    <string name="diary_empty">Chưa có kỷ niệm nào.\nHãy viết điều đầu tiên nhé!</string>
     <string name="add">Thêm</string>
     <string name="delete">Xoá</string>
     <string name="diary_hint">Hôm nay có gì đáng nhớ?</string>
-    <string name="m_days">%1$d ngày</string>
-    <string name="m_years">%1$d năm</string>
+
+    <plurals name="m_days"><item quantity="other">%1$d ngày</item></plurals>
+    <plurals name="m_years"><item quantity="other">%1$d năm</item></plurals>
+    <plurals name="in_days"><item quantity="other">còn %1$d ngày</item></plurals>
+    <plurals name="age_years"><item quantity="other">%1$d tuổi</item></plurals>
     <string name="today">Hôm nay</string>
-    <string name="in_days">còn %1$d ngày</string>
+    <string name="birthday_of">Sinh nhật %1$s · tròn %2$d tuổi</string>
+    <string name="zodiac_fmt">Cung %1$s</string>
+
+    <string-array name="zodiac">
+        <item>Ma Kết</item>
+        <item>Bảo Bình</item>
+        <item>Song Ngư</item>
+        <item>Bạch Dương</item>
+        <item>Kim Ngưu</item>
+        <item>Song Tử</item>
+        <item>Cự Giải</item>
+        <item>Sư Tử</item>
+        <item>Xử Nữ</item>
+        <item>Thiên Bình</item>
+        <item>Thiên Yết</item>
+        <item>Nhân Mã</item>
+    </string-array>
+
+    <string name="greet_morning">Chào buổi sáng, %1$s!</string>
+    <string name="greet_noon">Chào buổi trưa, %1$s!</string>
+    <string name="greet_afternoon">Chào buổi chiều, %1$s!</string>
+    <string name="greet_evening">Chào buổi tối, %1$s!</string>
+    <string name="greet_night">Khuya rồi, ngủ ngon nhé %1$s!</string>
+    <string name="sp_title">Hôm nay thật đặc biệt</string>
+    <string name="sp_soon_title">Sắp có điều đặc biệt</string>
+    <string name="sp_bday_self">Chúc mừng sinh nhật %1$s! Bước sang tuổi %2$d, chúc bạn thật nhiều sức khoẻ, niềm vui và luôn được yêu thương 🎂</string>
+    <string name="sp_bday_partner">Hôm nay là sinh nhật %1$s (%2$d tuổi)! Đừng quên một lời chúc và một món quà nhỏ nhé 🎁</string>
+    <plurals name="sp_bday_soon"><item quantity="other">Còn %2$d ngày nữa là sinh nhật %1$s. Chuẩn bị một bất ngờ nào! 🎁</item></plurals>
+    <string name="sp_year">Chúc mừng %1$d năm yêu nhau! Cảm ơn vì đã luôn ở bên nhau 💕</string>
+    <string name="sp_month">Chúc mừng %1$d tháng yêu nhau! Thêm một tháng ngọt ngào nữa 💗</string>
+    <string name="sp_days">Tròn %1$d ngày bên nhau! Mỗi ngày có nhau đều là một món quà 💖</string>
+
+    <string-array name="daily_msgs">
+        <item>Hôm nay hãy nhắn cho %1$s một câu thật ngọt ngào nhé 💌</item>
+        <item>Yêu là cùng nhau đi qua những ngày bình thường và biến chúng thành đặc biệt.</item>
+        <item>Dành cho %1$s một cái ôm thật chặt hôm nay nhé 🤗</item>
+        <item>Cảm ơn vì đã luôn yêu thương và kiên nhẫn. Hãy nói điều đó với %1$s hôm nay.</item>
+        <item>Đừng quên hỏi %1$s hôm nay có vui không nhé.</item>
+        <item>Mỗi ngày bên %1$s đều là một ngày đáng nhớ.</item>
+        <item>Cùng %1$s làm một điều nhỏ xinh hôm nay: một bữa ăn, một buổi dạo chơi.</item>
+        <item>Tình yêu đẹp nhất là khi hai người cùng nhau trưởng thành.</item>
+        <item>Hôm nay bạn đã nói lời yêu thương với %1$s chưa?</item>
+        <item>Chúc bạn một ngày nhẹ nhàng, và luôn có %1$s ở bên.</item>
+        <item>Một tin nhắn nhỏ cũng đủ làm %1$s mỉm cười cả ngày.</item>
+        <item>Lắng nghe %1$s thật chậm, thật kỹ — đó cũng là một cách yêu.</item>
+        <item>Yêu thương không cần quá lớn lao, chỉ cần đều đặn mỗi ngày.</item>
+        <item>Hôm nay hãy khen %1$s một điều mà bạn thấy đáng yêu nhất.</item>
+        <item>Đi chậm một chút cũng được, miễn là cùng một hướng.</item>
+        <item>Chụp một tấm ảnh chung hôm nay để sau này còn nhớ nhé 📸</item>
+        <item>Có giận nhau cũng được, nhưng nhớ làm hoà trước khi đi ngủ.</item>
+        <item>Ba điều bạn biết ơn ở %1$s hôm nay là gì?</item>
+        <item>Có %1$s, ngày thường cũng trở thành ngày đẹp.</item>
+        <item>Tối nay hãy cùng %1$s có một buổi thư giãn thật nhẹ nhàng nhé.</item>
+        <item>Nhớ uống nước, ăn đủ bữa — và nhắc %1$s làm vậy nữa nhé 💧</item>
+        <item>Mỗi ngày trôi qua là thêm một trang đẹp trong câu chuyện của hai bạn.</item>
+        <item>Bất ngờ nhỏ hôm nay: viết một lời nhắn để nơi %1$s dễ thấy nhất.</item>
+        <item>Cùng %1$s cười thật nhiều hôm nay nhé!</item>
+    </string-array>
 </resources>

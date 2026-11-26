@@ -2,9 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:gravity="center" android:orientation="vertical" android:padding="32dp">
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="@string/enter_pin" android:textColor="@color/pink_dark" android:textSize="20sp"/>
-    <EditText android:id="@+id/pin" android:layout_width="200dp" android:layout_height="wrap_content"
-        android:gravity="center" android:imeOptions="actionDone" android:inputType="numberPassword" android:maxLength="8"/>
-    <Button android:id="@+id/unlock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unlock"/>
+    <TextView android:layout_width="88dp" android:layout_height="88dp" android:background="@drawable/ic_lock_heart" android:elevation="4dp"
+        android:gravity="center" android:includeFontPadding="false" android:text="♥" android:textColor="#FFFFFF" android:textSize="40sp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium" android:text="@string/enter_pin" android:textColor="@color/rose_dark" android:textSize="20sp"/>
+    <EditText android:id="@+id/pin" style="@style/Input" android:layout_width="220dp" android:layout_height="wrap_content" android:layout_marginTop="20dp"
+        android:gravity="center" android:imeOptions="actionDone" android:inputType="numberPassword" android:maxLength="8" android:textSize="22sp"/>
+    <Button android:id="@+id/unlock" style="@style/Primary" android:layout_width="220dp" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/unlock"/>
 </LinearLayout>

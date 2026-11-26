@@ -3,9 +3,27 @@
     <string name="app_name">Love Days Lite</string>
     <string name="widget_wide">Love counter (4x2)</string>
     <string name="widget_small">Love counter (2x2)</string>
-    <string name="you">Your name</string>
-    <string name="partner">Partner name</string>
+
+    <string name="you_default">You</string>
+    <string name="partner_default">Partner</string>
+    <string name="you_lower">you</string>
+    <string name="partner_lower">your love</string>
+    <string name="hint_name">Enter name</string>
+    <string name="form_you">About you</string>
+    <string name="form_partner">About your partner</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Other</string>
+    <string name="birthday">Birthday</string>
+    <string name="pick_birth">Pick birthday</string>
+    <string name="start_date">Day you got together</string>
+    <string name="pick_date">Pick a date</string>
+    <string name="save_changes">Save changes</string>
+    <string name="tap_photo">Tap the photo to change it</string>
+    <string name="cd_avatar">Profile photo</string>
+    <string name="back">Back</string>
     <string name="edit_info">About you two</string>
+
     <string name="days_together">days together</string>
     <string name="tap_setup">Tap to set up</string>
     <string name="since">Since %1$s</string>
@@ -13,21 +31,106 @@
     <string name="btn_photo">Change photo</string>
     <string name="btn_diary">Diary</string>
     <string name="upcoming">Coming up</string>
-    <string name="btn_export">Back up</string>
-    <string name="btn_import">Restore</string>
-    <string name="btn_pin">PIN</string>
+    <string name="upcoming_empty">Pick the day you got together to see upcoming milestones.</string>
+    <string name="section_options">Options</string>
+    <string name="btn_export">Back up data</string>
+    <string name="btn_import">Restore data</string>
+    <string name="btn_pin">PIN lock</string>
+    <string name="pin_on">On</string>
+    <string name="pin_off">Off</string>
     <string name="pin_hint">4–8 digits (empty to disable)</string>
     <string name="unlock">Unlock</string>
     <string name="enter_pin">Enter PIN</string>
     <string name="wrong_pin">Wrong PIN</string>
     <string name="saved">Saved</string>
     <string name="failed">Something went wrong</string>
+    <string name="lang_title">Language</string>
+    <string name="lang_vi">Tiếng Việt</string>
+    <string name="lang_en">English</string>
+    <string name="widget_photo">Use photo as widget background</string>
+
     <string name="diary_title">Diary</string>
+    <string name="diary_empty">No memories yet.\nWrite the first one!</string>
     <string name="add">Add</string>
     <string name="delete">Delete</string>
     <string name="diary_hint">Anything worth remembering today?</string>
-    <string name="m_days">%1$d days</string>
-    <string name="m_years">%1$d years</string>
+
+    <plurals name="m_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <plurals name="m_years">
+        <item quantity="one">%1$d year</item>
+        <item quantity="other">%1$d years</item>
+    </plurals>
+    <plurals name="in_days">
+        <item quantity="one">in %1$d day</item>
+        <item quantity="other">in %1$d days</item>
+    </plurals>
+    <plurals name="age_years">
+        <item quantity="one">%1$d year old</item>
+        <item quantity="other">%1$d years old</item>
+    </plurals>
     <string name="today">Today</string>
-    <string name="in_days">in %1$d days</string>
+    <string name="birthday_of">%1$s\'s birthday · turns %2$d</string>
+    <string name="zodiac_fmt">%1$s</string>
+
+    <string-array name="zodiac">
+        <item>Capricorn</item>
+        <item>Aquarius</item>
+        <item>Pisces</item>
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagittarius</item>
+    </string-array>
+
+    <string name="greet_morning">Good morning, %1$s!</string>
+    <string name="greet_noon">Good noon, %1$s!</string>
+    <string name="greet_afternoon">Good afternoon, %1$s!</string>
+    <string name="greet_evening">Good evening, %1$s!</string>
+    <string name="greet_night">It is late, sleep well %1$s!</string>
+    <string name="sp_title">Today is special</string>
+    <string name="sp_soon_title">Something special is coming</string>
+    <string name="sp_bday_self">Happy birthday, %1$s! Turning %2$d, may you have lots of health, joy and love 🎂</string>
+    <string name="sp_bday_partner">Today is %1$s\'s birthday (%2$d)! Do not forget a sweet wish and a little gift 🎁</string>
+    <plurals name="sp_bday_soon">
+        <item quantity="one">%1$s\'s birthday is tomorrow. Get a surprise ready! 🎁</item>
+        <item quantity="other">%1$s\'s birthday is in %2$d days. Get a surprise ready! 🎁</item>
+    </plurals>
+    <string name="sp_year">Happy %1$d-year anniversary! Thank you for always being together 💕</string>
+    <string name="sp_month">Happy %1$d-month anniversary! Another sweet month together 💗</string>
+    <string name="sp_days">%1$d days together! Every day with you is a gift 💖</string>
+
+    <string-array name="daily_msgs">
+        <item>Send %1$s a sweet message today 💌</item>
+        <item>Love is walking through ordinary days together and making them special.</item>
+        <item>Give %1$s a big warm hug today 🤗</item>
+        <item>Thank you for always being loving and patient. Tell %1$s so today.</item>
+        <item>Do not forget to ask %1$s how the day went.</item>
+        <item>Every day with %1$s is a day worth remembering.</item>
+        <item>Do one small lovely thing with %1$s today: a meal, a walk.</item>
+        <item>The best love is when two people grow together.</item>
+        <item>Have you said something loving to %1$s today?</item>
+        <item>Wishing you a gentle day, with %1$s by your side.</item>
+        <item>One small message can keep %1$s smiling all day.</item>
+        <item>Listen to %1$s slowly and closely, that is also a way to love.</item>
+        <item>Love does not have to be big, only steady every day.</item>
+        <item>Compliment %1$s on the thing you find most lovable today.</item>
+        <item>Going slowly is fine, as long as you go the same way.</item>
+        <item>Take a photo together today so you can remember it later 📸</item>
+        <item>Arguments happen, just make up before bedtime.</item>
+        <item>What are three things you are grateful for about %1$s today?</item>
+        <item>With %1$s, an ordinary day becomes a beautiful one.</item>
+        <item>Plan a quiet, relaxing evening with %1$s tonight.</item>
+        <item>Drink water, eat well, and remind %1$s to do the same 💧</item>
+        <item>Every day adds a lovely page to your story together.</item>
+        <item>A tiny surprise today: leave a note where %1$s will find it.</item>
+        <item>Laugh a lot with %1$s today!</item>
+    </string-array>
 </resources>
